@@ -1,0 +1,22 @@
+/*********** CSS For Home Page ***********/
+/* Section Evil Intro Start */
+.evil_intro {
+  padding: 4% 20%;
+}
+
+.last {
+  margin-bottom: 15%;
+}
+
+.boy {
+  border-radius: 25px;
+}
+
+.boy:hover {
+  opacity: 50%;
+  transition: 1s;
+}
+
+form {
+  padding: 0 20% 5%;
+}
