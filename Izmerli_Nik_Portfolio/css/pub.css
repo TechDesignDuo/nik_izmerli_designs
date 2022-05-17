@@ -1,0 +1,173 @@
+/*********** CSS For Evil Dead ***********/
+body{
+  background-color: black;
+  color: white;
+}
+
+.line {
+  border-color: white;
+}
+
+
+/* Section Evil Intro Start */
+.evil_intro {
+  padding: 8% 8%;
+  background-color: black;
+  color: white;
+}
+
+.next_sec {
+  margin-top: 8%;
+}
+
+/* Section Evil Intro End */
+/* Section Evil Quote Start */
+.evil_quote {
+  padding: 4% 0 4% 4%;
+  background-color: black;
+  color: white;
+}
+
+/* Section Evil Quote End */
+
+/* Section Evil 3 version Start */
+.evil_double{
+  padding: 8% 8% 0;
+  background-color: black;
+  color: white;
+}
+
+.last {
+  padding-bottom: 5%;
+}
+/* Section Evil 3 version End */
+
+
+
+/* Section Omakase Mockups Examples Start */
+.oma_examples {
+  background-image: url(../img/oma/background.jpg);
+}
+
+.oma_pics {
+  margin-top: 10%;
+  border: 10px solid black;
+  padding: 0;
+}
+
+.oma_pics_last {
+  margin-bottom: 10%;
+}
+
+/* Section Omakase Mockups Examples End */
+/* Outro */
+.oma_outro {
+  background-color: black;
+  color: white;
+  padding-bottom: 3%;
+}
+
+/* Media Queries Start */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .evil_intro {
+    padding: 8% 10%;
+  }
+
+  .evil_quote {
+    padding: 8%;
+  }
+
+  .oma_pics_first {
+    border-top: 20px solid black;
+  }
+
+  .oma_pics {
+    margin: 0;
+  }
+
+  .oma_pics_last {
+    margin: 0;
+    border-bottom: 20px solid black;
+  }
+
+  .next_sec {
+    margin-top: 8%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .evil_intro {
+    padding: 8% 10%;
+  }
+
+  .oma_branding {
+    padding: 8%;
+  }
+
+  .oma_pics_first {
+    border-top: 20px solid black;
+  }
+
+  .oma_pics {
+    margin: 0;
+  }
+
+  .oma_pics_last {
+    margin: 0;
+    border-bottom: 20px solid black;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .evil_intro {
+    padding: 8% 10%;
+  }
+
+  .oma_outro {
+    padding-bottom: 3%;
+  }
+
+  .oma_pics_first {
+    border-top: 10px solid black;
+  }
+
+  .oma_branding {
+    padding: 8%;
+  }
+
+  .oma_pics {
+    margin-top: 10%;
+  }
+
+  .oma_pics_last {
+    margin-bottom: 10%;
+    border-bottom: 10px solid black;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .evil_intro {
+    padding: 8% 9%;
+  }
+
+  .oma_outro {
+    padding-bottom: 3%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1500px) {
+  .evil_intro {
+    padding: 8% 16%;
+  }
+
+  .oma_outro {
+    padding-bottom: 3%;
+  }
+}
+
+/* Media Queries End */
